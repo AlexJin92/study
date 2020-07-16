@@ -1,0 +1,27 @@
+p:first-letter { 
+  font-size: 30px;
+ color: red
+}
+.h1 {color: orange;}
+
+.h2 {color: blue;}
+.v {color: red;}
+.frut{color: green;}
+.fruits{color: grey;}
+span{ font-style: italic;
+color: white;
+background: green;}
+table,th,td {border: 1px solid black;
+text-align: center;
+}
+.names{color:orange;
+background-color:white;
+text-align: left}
+.amount{background-color: green;
+color: white;}
+td + td {
+  background: green 
+}
+.orange {
+  color: orange 
+}

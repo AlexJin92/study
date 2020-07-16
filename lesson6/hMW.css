@@ -1,0 +1,16 @@
+#menu {
+     background: #000070;
+ }
+#menu li {
+     display: inline-block;
+}
+#menu li a {
+     display: block;
+     padding: 30px;
+     font-family: arial;
+     font-weight: bold;
+     
+}
+#menu li a:hover {
+     background:#7953d2;
+}

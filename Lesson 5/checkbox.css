@@ -1,0 +1,46 @@
+body  {
+	font-size: 60px;
+}
+
+.checkbox-label {
+ color: white;
+ background-color: red;
+ 
+}
+
+.checkbox:checked + .checkbox-label {
+text-decoration: underline; 
+}
+.check2-label {
+ color: white;
+ background-color: green;
+ 
+}
+
+.check2:checked + .check2-label {
+background-color: green;
+font-family: "arial";
+font-style: italic;
+font-weight: bold;
+
+}
+.check3-label {
+ color: white;
+ background-color: blue;
+ 
+}
+
+.check3:checked + .check3-label {
+background-color: yellow;
+}
+
+.check4-label {
+ color: white;
+ background-color: #800080;
+ 
+}
+
+.check4:checked + .check4-label:after, .check4:checked + .check4-label:before {
+background-color: #800080;
+content: "~"
+}
