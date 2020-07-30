@@ -1,0 +1,69 @@
+.page-container {
+ background-image: url(https://raw.githubusercontent.com/Kolland/fe-basics-resources/master/L11-12-HW/404-bg-image.jpg);
+ background-position: center;
+ background-size: cover;
+ 
+ min-height: 100vh;
+ 
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ padding: 16px;
+ box-sizing: border-box;
+}
+
+.text-404 {
+ color: white;
+ font-size: 209px;
+ display: flex;
+ justify-content: center;
+ line-height: 152px;
+}
+
+.image-icon {
+ flex-shrink: 0;
+ width: 152px;
+ height: 152px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.warning-text {
+ color: white;
+ text-align: center;
+ font-size: 20px;
+ line-height: 48px;
+ margin-top: 50px;
+}
+
+
+.goback{
+	size: 15px;
+	color: #ffe600;
+	display: flex;
+	text-decoration-line: none;
+	justify-content: center;
+	margin-bottom: 42px;
+}
+.search::placeholder {
+	color: white;
+	padding-left: 31px;
+}
+.search{
+	background-color: inherit;
+	border-color: white;
+	height: 71px;
+	width: 571px;
+}
+.button{
+	height: 72px;
+	width: 170px;
+	background-color: #2a233d;
+
+	margin-left: 30px;
+}
+form{
+	display: flex;
+
+}
